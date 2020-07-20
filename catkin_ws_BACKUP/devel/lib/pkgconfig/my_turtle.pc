@@ -1,8 +1,0 @@
-prefix=/home/fede/catkin_ws/devel
-
-Name: my_turtle
-Description: Description of my_turtle
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/fede/catkin_ws/devel/lib 
-Requires: 

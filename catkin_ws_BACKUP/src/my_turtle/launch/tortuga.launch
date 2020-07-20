@@ -1,5 +1,0 @@
-<launch>
-  <node name="turtlesim_node1" pkg="turtlesim" type="turtlesim_node" />
-  <node name="move_turtle" pkg="my_turtle" type="move_turtle" args="turtle1" output="screen"/>
-  <node name="listen_turtle" pkg="my_turtle" type="listen_turtle" output="screen"/>
-</launch>
