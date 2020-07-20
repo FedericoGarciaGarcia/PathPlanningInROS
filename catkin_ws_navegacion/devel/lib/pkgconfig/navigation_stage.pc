@@ -1,0 +1,8 @@
+prefix=/home/fede/catkin_ws_navegacion/devel
+
+Name: navigation_stage
+Description: Description of navigation_stage
+Version: 0.2.1
+Cflags: 
+Libs: -L/home/fede/catkin_ws_navegacion/devel/lib 
+Requires: 

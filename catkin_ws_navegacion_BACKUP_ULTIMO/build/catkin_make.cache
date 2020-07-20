@@ -1,0 +1,2 @@
+my_astar_planner:my_astar_planner_2
+-DCATKIN_DEVEL_PREFIX=/home/fede/catkin_ws_navegacion/devel -DCMAKE_INSTALL_PREFIX=/home/fede/catkin_ws_navegacion/install -G Unix Makefiles

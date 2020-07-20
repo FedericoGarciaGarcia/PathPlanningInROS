@@ -1,0 +1,8 @@
+prefix=/home/fede/catkin_ws/devel
+
+Name: my_astar_planner
+Description: Description of my_astar_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/fede/catkin_ws/devel/lib 
+Requires: 

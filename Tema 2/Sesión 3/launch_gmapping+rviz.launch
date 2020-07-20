@@ -1,0 +1,10 @@
+<launch>
+	<master auto="start"/>
+        <param name="/use_sim_time" value="true"/>
+        <node name="stageros" pkg="stage_ros" type="stageros" args="$(find stage_ros)/world/willow-erratic.world"/>
+	<node pkg="gmapping" type="slam_gmapping" name="gmapping_thing" output="screen">
+	  <remap from="scan" to="base_scan"/>
+	  </node>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find stage_ros)/rviz/stage.rviz"/>
+        
+</launch>

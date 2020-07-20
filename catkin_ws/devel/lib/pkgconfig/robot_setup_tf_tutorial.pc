@@ -1,0 +1,8 @@
+prefix=/home/fede/catkin_ws/devel
+
+Name: robot_setup_tf_tutorial
+Description: Description of robot_setup_tf_tutorial
+Version: 0.2.1
+Cflags: 
+Libs: -L/home/fede/catkin_ws/devel/lib 
+Requires: 
