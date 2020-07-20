@@ -4,9 +4,11 @@ Implementation of the A\* algorithm and a variant of the Block A\* in ROS.
 
 ### Block A\* Variant
 
-Preprocessing is used to find fixed-size blocks of nodes free of obstacles. The central node is stored in a matrix the same size of the map where the robot will move.
+Preprocessing is used to find fixed-size blocks of adjacent nodes free of obstacles. Only the central node of each block is stored in a list. The list will contain nodes to consider for path planning. 
 
 The process is repeated several times, reducing the block size by half each time until its size is 2.
+
+The *objective node* is also added to the list.
 
 ### A\* VS Block A\* Variant
 
