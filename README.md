@@ -18,10 +18,10 @@ Expanded nodes are shown in blue for A\* and red for Block A\*, while path nodes
 
 Below is a table comparing the results of the execution of the image above.
 
-| Algorithm         |  Time(s)      |  Expanded nodes | Distance |
-|-------------------|:-------------:|:---------------:|:--------:|
-| A\*               | 117.8         | 28149           | 24.68    |
-| Block A\* Variant | 0             | 473             | 29.48    |
+| **Algorithm**     | **Time(s)** | **Expanded nodes** | **Distance** |
+|-------------------|:-----------:|:------------------:|:------------:|
+| A\*               | 117.8       | 28149              | 24.68        |
+| Block A\* Variant | 0           | 473                | 29.48        |
 
 
 Though the path found by Block A\* was 19.49% longer than that of A\*, Block A\* reduced the number of expanded nodes by 98.32% an executed instantly. Since time was rounded to one decimal place and the execution time of Block A\* variant was just a few milliseconds, its time is shown as 0.
