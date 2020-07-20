@@ -2,11 +2,17 @@
 
 Implementation of the A\* algorithm and a variant of the Block A\* in ROS.
 
+### Block A\* Variant
+
+Preprocssing is used to find fixed-size blocks of nodes free of obstacles. The central node is stored in a matrix the same size of the map where the robot will move.
+
+The process is repeated several times, reducing the block size by half each time until its size is 2.
+
 ### A\* VS Block A\* Variant
 
 ![Comparison](https://raw.githubusercontent.com/FedericoGarciaGarcia/PathPlanningInROS/master/PathPlanningInROS/Pictures/3_a.png)
 
-Execution of the **A\* (left)** and **Block A\* variant** (right) on the map *willow-pr2-5cm.world*.
+Execution of the **A\*** (left) and **Block A\* variant** (right) on the map *willow-pr2-5cm.world*.
 
 Expanded nodes are shown in blue for A\* and red for Block A\*, while path nodes are shown in green. Due to the low number of nodes expanded in the Block A\* algorithm, their size has been increased for better visualization.
 
